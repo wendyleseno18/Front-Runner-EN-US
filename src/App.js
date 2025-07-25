@@ -37,7 +37,7 @@ function App() {
         <div class="accordion" id="accordionExample">
           <Widget
             instanceid={InstanceId_Widget}
-            productid=KRSJ003T
+            productid={ProductId}
             active="true"
             heading="Reviews Widget"
             clipboardheading={ClipBoardHeading}
@@ -49,7 +49,7 @@ function App() {
 
           <QA
             instanceid={InstanceId_QA}
-            productid=KRSJ003T
+            productid={ProductId}
             active="false"
             heading="Q&A"
             clipboardheading={ClipBoardHeading}
@@ -85,7 +85,7 @@ function App() {
 
           <StarRating
             instanceid={InstanceId_StarRating}
-            productid=KRSJ003T
+            productid={ProductId}
             active="false"
             heading="Star Rating"
             clipboardheading={ClipBoardHeading}
