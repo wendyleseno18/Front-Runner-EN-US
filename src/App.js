@@ -13,13 +13,13 @@ function App() {
   let InstanceId_QA = "1174169";
   let InstanceId_SEO = "1174170";
   let InstanceId_Carousel = "830907";
-  let InstanceId_StarRating = "1172823";
+  let InstanceId_StarRating = "1174168";
   let InstanceId_PromotedProd = "1174171";
   let InstanceId_UgcGallery = "";
   let InstanceId_ReviewsTab = "";
 
   //Product ID
-  let ProductId = "287-500056P";
+  let ProductId = "";
 
   //Clipboard text here.
   let ClipBoardHeading = "Follow these steps to add this";
@@ -37,7 +37,7 @@ function App() {
         <div class="accordion" id="accordionExample">
           <Widget
             instanceid={InstanceId_Widget}
-            productid={ProductId}
+            productid=KRSJ003T
             active="true"
             heading="Reviews Widget"
             clipboardheading={ClipBoardHeading}
@@ -49,7 +49,7 @@ function App() {
 
           <QA
             instanceid={InstanceId_QA}
-            productid={ProductId}
+            productid=KRSJ003T
             active="false"
             heading="Q&A"
             clipboardheading={ClipBoardHeading}
@@ -85,7 +85,7 @@ function App() {
 
           <StarRating
             instanceid={InstanceId_StarRating}
-            productid={ProductId}
+            productid=KRSJ003T
             active="false"
             heading="Star Rating"
             clipboardheading={ClipBoardHeading}
